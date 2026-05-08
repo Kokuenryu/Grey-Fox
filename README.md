@@ -1,9 +1,8 @@
+# 🦊 GreyFox v2
+
 <p align="center">
   <img src="greyfox.png" width="250" alt="GreyFox Logo">
 </p>
-
-
-# 🦊 GreyFox v2
 
 **GreyFox** é uma ferramenta minimalista de Red Team focada em reconhecimento de rede e movimentação lateral automatizada. Projetada para ser leve, eficiente e organizada, com suporte total para ambientes Linux (**NixOS**/Arch) e Windows.
 
@@ -25,7 +24,7 @@ Antes de rodar a ferramenta, você deve ajustar o prefixo da rede que deseja esc
 ## 🛠️ Como usar
 
 1. **Clonar o repositório:**
-   ```bash
+```bash
    git clone [https://github.com/Kokuenryu/Grey-Fox.git](https://github.com/Kokuenryu/Grey-Fox.git)
    cd Grey-Fox
    
