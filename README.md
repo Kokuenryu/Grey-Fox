@@ -13,7 +13,7 @@
 ## 🛠️ Como usar
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/GreyFox.git](https://github.com/seu-usuario/GreyFox.git)
+   git clone (https://github.com/Kokuenryu/Grey-Fox.git)
    python main.py
 
 ## ⚠️ Aviso Legal
