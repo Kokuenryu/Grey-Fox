@@ -1,4 +1,5 @@
 import socket
+import os 
 from threading import Thread
 
 discovered_hosts = []
@@ -9,7 +10,6 @@ def scan_port(ip, port, scan_path):
         if sock.connect_ex((ip, port)) == 0:
             if ip not in discovered_hosts:
                 discovered_hosts.append(ip)
-                # Salva o log dentro da pasta da sessão atual
                 with open(os.path.join(scan_path, "targets_found.txt"), "a") as f:
                     f.write(f"Host: {ip} | Port: {port}\n")
 

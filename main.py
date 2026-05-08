@@ -26,7 +26,7 @@ def main():
     print(f"[+] Documentos e chaves salvos em: {current_scan_path}")
 
     # 3. Scanning
-    network_prefix = "192.168.1" # Ajuste conforme sua rede
+    network_prefix = "192.168.68" # Ajuste conforme sua rede
     targets = start_scan(network_prefix, current_scan_path)
     print(f"[+] Alvos identificados: {len(targets)}")
 

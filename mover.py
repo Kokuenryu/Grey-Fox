@@ -3,7 +3,6 @@ import subprocess
 def try_move(ip, key_path):
     """Tenta executar um comando remoto para validar o acesso."""
     try:
-        # Tenta logar como root (comum em servidores/IoT) ou usuário atual
         cmd = [
             "ssh", "-i", key_path,
             "-o", "BatchMode=yes",

