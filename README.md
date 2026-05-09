@@ -19,7 +19,7 @@
 ## 🛠️ Como Usar
 
 1. **Clone o repositório:**
-   ```bash
+```bash
    git clone [https://github.com/seu-usuario/greyfox.git](https://github.com/seu-usuario/greyfox.git)
    cd greyfox
 
