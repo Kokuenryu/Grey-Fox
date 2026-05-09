@@ -23,34 +23,6 @@
    git clone [https://github.com/seu-usuario/greyfox.git](https://github.com/seu-usuario/greyfox.git)
    cd greyfox
 
-```markdown
-# 🦊 GreyFox v2.0 - Network Auditor
-
-**GreyFox** é um framework leve e modular para auditoria de rede e segurança ofensiva (Red Team), desenvolvido inteiramente em **Python Nativo**. Ele foi projetado para identificar dispositivos ativos, mapear superfícies de ataque e detectar arquivos sensíveis expostos em servidores locais.
-
-## 🚀 Funcionalidades
-
-- **Scanner de Rede Multi-threaded:** Utiliza o processamento paralelo do Python para escanear redes inteiras (/24) em segundos.
-- **Auditoria de Vulnerabilidades Web:** Busca automaticamente por arquivos críticos expostos, como:
-    - Configurações de ambiente (`.env`)
-    - Repositórios expostos (`.git`)
-    - Backups de bancos de dados (`.sql`)
-    - Chaves SSH e credenciais de nuvem (`.aws/credentials`).
-- **Exfiltração de Evidências (Looting):** Faz o download automático de arquivos vulneráveis para análise posterior.
-- **Relatórios Dual-Output:**
-    - **JSON:** Para integração com outras ferramentas de Red Team.
-    - **HTML Dashboard:** Um relatório visual moderno e intuitivo para apresentação de resultados.
-- **Nativo e Portátil:** Zero dependências externas (`pip install` não é necessário).
-
-## 🛠️ Como Usar
-
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/Kokuenryu/Grey-Fox.git
-   cd greyfox
-
-```
-
 2. **Configure sua rede:**
 Abra o arquivo `greyfox.py` e altere o prefixo da rede na última linha:
 ```python
