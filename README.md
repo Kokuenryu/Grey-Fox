@@ -22,6 +22,7 @@
 ```bash
    git clone [https://github.com/seu-usuario/greyfox.git](https://github.com/seu-usuario/greyfox.git)
    cd greyfox
+```
 
 2. **Configure sua rede:**
 Abra o arquivo `greyfox.py` e altere o prefixo da rede na última linha:
